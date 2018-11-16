@@ -5,7 +5,7 @@ function largeRem(arr) {
   // Check that sum of the array is equal to 100
   // Throw error if it isn't
   const arraySum = arr.reduce((a, b) => a + b);
-  if (arraySum != 100)
+  if (arraySum - 100 > 1)
     throw new Error('Sum of the array values not equal to 100');
 
   // If the sum of our rounds() is 99, we need to add one;

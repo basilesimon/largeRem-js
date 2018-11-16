@@ -1,6 +1,8 @@
 {
   "name": "large-rem-js",
   "version": "1.0.0",
+  "description": "Round shares to integers using largest remainder method while preserving sum = 100 ",
+  "author": "Basile Simon <basile@basilesimon.fr>",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

@@ -8,7 +8,7 @@ describe('large-rem-js', () => {
   });
 
   it('should add and remove one in the array', () => {
-    expect(largeRem([20.5, 60.3, 19.2])).toEqual(
+    expect(largeRem([20.4, 60.3, 19.3])).toEqual(
       expect.arrayContaining([21, 60, 19])
     );
   });
