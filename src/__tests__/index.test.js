@@ -13,6 +13,14 @@ describe('large-rem-js', () => {
     );
   });
 
+  it('should add and remove one in the array', () => {
+    const one = Math.random() * 100 / 2;
+    const two = Math.random() * 100 / 2;
+    const three = 100 - (one + two);
+    const arr = [one, two, three];
+    expect(largeRem(arr).reduce((a, b) => a + b)).toBe(100);
+  });
+
   it('pick a random integer to increment if equality', () => {
     expect(largeRem([100 / 3, 100 / 3, 100 / 3])).toContain(34);
   });
